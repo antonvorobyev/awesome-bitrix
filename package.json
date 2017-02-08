@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "description": "Awesome Bitrix",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "markdown-loader": "^0.1.7"
+    "html-loader": "^0.4.4",
+    "markdown-loader": "^0.1.7",
+    "marked": "^0.3.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
